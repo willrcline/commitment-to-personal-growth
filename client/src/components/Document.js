@@ -11,7 +11,7 @@ const TextArea = styled.textarea`
 `;
 
 export default function Document() {
-    const { currentPrompt, setCurrentPrompt, dialogueList, setDialogueList, documentText, setDocumentText} = useContext(MasterContext)
+    const { currentPrompt, setCurrentPrompt, documentText, setDocumentText} = useContext(MasterContext)
     const [sendClicked, setSendClicked] = useState(false);
     const [saveClicked, setSaveClicked] = useState(false);
     const [errorMessage, setErrorMessage] = useState("");

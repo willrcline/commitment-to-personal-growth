@@ -38,7 +38,6 @@ export default function Menu() {
                     <li onClick={() => setCurrentPage("chat")} style={{color: currentPage === "chat" ? "#071952" : "#ffffff"}}>Chat</li>
                     <li onClick={() => setCurrentPage("view")} style={{color: currentPage === "view" ? "#071952" : "#ffffff"}}>View</li>
                     {/* <li>Incentives</li>
-                    <li>SMS Interface</li>
                     <li>Account</li> */}
                 </ul>
                 {isLoggedIn &&
